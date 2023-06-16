@@ -1,0 +1,95 @@
+html{
+    height:100%
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    
+}
+
+.container h2{
+    display:flex;
+    justify-content: center;
+}
+.note{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+h2{
+    font-family:fantasy ;
+    letter-spacing: 10px;
+    font-size: 45px;
+    background-image: radial-gradient( circle 975px at 2.6% 48.3%,  rgba(0,8,120,1) 0%, rgba(95,184,224,1) 99.7% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.input-group {
+    display:inline-flex;
+    align-items:center;
+    margin-left: 7% ;
+  
+  }
+  
+  .input {
+    min-height: 50px;
+    max-width: 1500px;
+    padding: 0 1rem;
+    color: #000000;
+    font-size: 20px;
+    border: 1px solid #5e4dcd;
+    border-radius: 6px 0 0 6px;
+    background-color: transparent;
+  }
+
+  
+  .button--submit {
+    min-height: 50px;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: #5e4dcd;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+  }
+  
+  .button--submit:hover {
+    background-color: #5e5dcd;
+  }
+  
+  .input:focus, .input:focus-visible {
+    border-color: #3898EC;
+    outline: none;
+  }
+
+.container{
+    height:500px;
+    width: 400px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding:30px;
+    overflow:auto;
+}
+
+#todoList{
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 25px;
+    word-wrap: break-word;
+    
+}
+
+
+  
+
